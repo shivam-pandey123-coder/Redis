@@ -12,7 +12,7 @@ services:
 
   mongo:
     image: mongo:7
-    container_name: Learning
+    container_name: Learning_mongo
     ports:
       - "27017:27017"
     environment:
